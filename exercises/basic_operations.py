@@ -11,7 +11,9 @@ def basic_difference(first_number, second_number):
 
 
 def basic_product(first_number, second_number):
-    return
+    sum = first_number * second_number
+
+    return sum
 
 
 def basic_division(first_number, second_number):
