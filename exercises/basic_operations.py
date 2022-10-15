@@ -17,7 +17,9 @@ def basic_product(first_number, second_number):
 
 
 def basic_division(first_number, second_number):
-    return
+    sum = first_number / second_number
+
+    return sum
 
 
 def basic_integer_division(first_number, second_number):
