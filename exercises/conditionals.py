@@ -16,7 +16,12 @@ def check_what_number_is_greater(first_number, second_number):
 
 
 def check_if_number_is_odd_or_even(number):
-    return
+    div = number % 2
+
+    if div == 0:
+        return 'even'
+
+    return 'odd'
 
 
 def check_if_element_exists_in_list(element, input_list):
