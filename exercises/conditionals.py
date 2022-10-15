@@ -1,3 +1,5 @@
+
+
 def check_if_word_has_4_or_more_letters(word):
     words = len(word) > 3
 
@@ -5,7 +7,12 @@ def check_if_word_has_4_or_more_letters(word):
 
 
 def check_what_number_is_greater(first_number, second_number):
-    return
+    maxNumber = first_number
+
+    if second_number > maxNumber:
+        return second_number
+
+    return maxNumber
 
 
 def check_if_number_is_odd_or_even(number):
