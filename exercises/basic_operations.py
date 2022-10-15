@@ -35,4 +35,6 @@ def basic_remainder(first_number, second_number):
 
 
 def basic_potentiation(first_number, second_number):
-    return
+    pot = first_number ** second_number
+
+    return pot
