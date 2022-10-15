@@ -24,5 +24,5 @@ def check_if_number_is_odd_or_even(number):
     return 'odd'
 
 
-def check_if_element_exists_in_list(element, input_list):
-    return
+def check_if_element_exists_in_list(element, input_list: list):
+    return element in input_list
