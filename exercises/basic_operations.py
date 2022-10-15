@@ -29,7 +29,9 @@ def basic_integer_division(first_number, second_number):
 
 
 def basic_remainder(first_number, second_number):
-    return
+    divRemainder = first_number % second_number
+
+    return divRemainder
 
 
 def basic_potentiation(first_number, second_number):
