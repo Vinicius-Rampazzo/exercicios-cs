@@ -23,7 +23,9 @@ def basic_division(first_number, second_number):
 
 
 def basic_integer_division(first_number, second_number):
-    return
+    div = first_number // second_number
+
+    return div
 
 
 def basic_remainder(first_number, second_number):
